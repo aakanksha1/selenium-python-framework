@@ -1,13 +1,3 @@
-# Test Automation Project
-
-This is my first test automation project based on Selenium-Webdriver with Python. It's still developing package of automated tests of [phptravels.net](https://phptravels.net) demo website.
-The collection of tests contains:
-- user login tests (correct / incorrect login and password)
-- hotels search tests
-- flights search tests
-- tours search tests
-- transfers search tests
-
 ## Project Structure
 Here you can find a short description of main directories and it's content
 - [locators](locators) - there are locators of web elements in locators.py grouped in classes
@@ -34,7 +24,6 @@ Here you can find a short description of main directories and it's content
 def setup(request):
     driver = DriverFactory.get_driver("chrome")
 ```
-
 
 ## Getting Started
 
